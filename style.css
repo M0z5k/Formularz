@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.kontener {
+    height: 700px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
